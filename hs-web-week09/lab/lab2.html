@@ -3,16 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>9주차 실습 2</title>
+  <title>9주차 실습 2 모범답안</title>
   <style>
     /*
-    실습 2 · 기본
-
-    문제: ul을 가로 내비게이션 메뉴로 만드세요. 점(•)과 기본 들여쓰기를 없애고, li를 가로로 20px 간격으로 늘어놓고, 링크의 밑줄을 없앤 뒤 마우스를 올리면 색이 바뀌게 하세요.
-    힌트: ul에 list-style: none 과 padding: 0 을 함께 주는 것을 잊지 마세요.
-    꼭 들어가야 하는 것: display: flex|display:flex  gap  list-style  padding: 0|padding:0  text-decoration  :hover
+    실습 2 모범답안 — 스스로 해 본 뒤에 보세요
     */
-    /* 여기에 CSS를 작성하세요 */
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul a {
+      text-decoration: none;
+      color: #4b5563;
+      padding: 8px 4px;
+    }
+
+    ul a:hover {
+      color: #4338ca;
+    }
   </style>
 </head>
 <body>
