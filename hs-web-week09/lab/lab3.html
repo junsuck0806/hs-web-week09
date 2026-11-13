@@ -6,13 +6,21 @@
   <title>9주차 실습 3</title>
   <style>
     /*
-    실습 3 · 심화
-
-    문제: 카드 목록을 미디어쿼리 없이 반응형으로 만드세요. 부모는 flex에 wrap과 16px 간격을 주고, 각 카드는 기본 240px이되 늘어나거나 줄어들 수 있게 하세요. 카드에는 padding·테두리·둥근 모서리도 줍니다.
-    힌트: flex: 1 1 240px 한 줄이면 됩니다. 화면이 좁아지면 알아서 아래로 접힙니다.
-    꼭 들어가야 하는 것: flex-wrap  wrap  gap  flex: 1 1 240px|flex:1 1 240px  border-radius
+    실습 3 모범답안 — 스스로 해 본 뒤에 보세요
     */
-    /* 여기에 CSS를 작성하세요 */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .card {
+      flex: 1 1 240px;
+      padding: 20px;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      background: #fff;
+    }
   </style>
 </head>
 <body>
